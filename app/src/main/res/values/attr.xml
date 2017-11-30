@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LockPatternView">
+        <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height" -->
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+    <declare-styleable name="RulerLayout">
+        <attr name="bgColor" format="color" />
+        <attr name="smallColor" format="color" />
+        <attr name="nomalColor" format="color" />
+        <attr name="bigColor" format="color" />
+        <attr name="txtColor" format="color" />
+        <attr name="smallWidth" format="dimension" />
+        <attr name="bigWidth" format="dimension" />
+        <attr name="nomalWidth" format="dimension" />
+        <attr name="smallHeight" format="dimension" />
+        <attr name="bigHeight" format="dimension" />
+        <attr name="nomalHeight" format="dimension" />
+        <attr name="txtSize" format="dimension" />
+        <attr name="spacing" format="dimension" />
+        <attr name="txtAndLineHeaght" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="baseLineColor" format="color" />
+        <attr name="startScale" format="integer" />
+        <attr name="endScale" format="integer" />
+        <attr name="currentScale" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/lly_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rv_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="30dp"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+        <com.lm.slide.RulerLayout
+            android:id="@+id/rv_content"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            app:baseLineColor="@color/color_E1E0E0"
+            app:bgColor="@color/color_f1f1f1"
+            app:bigColor="@color/color_E1E0E0"
+            app:bigHeight="80dp"
+            app:currentScale="20"
+            app:endScale="300"
+            app:lineColor="@color/color_11B374"
+            app:lineHeight="60dp"
+            app:nomalColor="@color/color_E1E0E0"
+            app:nomalHeight="60dp"
+            app:smallColor="@color/color_E1E0E0"
+            app:smallHeight="50dp"
+            app:spacing="18dp"
+            app:startScale="8"
+            app:txtColor="@color/color000000"
+            app:txtSize="22dp" />
+
+    </RelativeLayout>
+</layout>
